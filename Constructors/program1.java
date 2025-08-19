@@ -17,7 +17,7 @@ public class program1{
         Test t = new Test();
         t.show();
         Test p =new Test();
-        t.show();
+        p.show();
     }
 }
 
