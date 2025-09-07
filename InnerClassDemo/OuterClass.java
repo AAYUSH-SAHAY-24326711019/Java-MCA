@@ -25,6 +25,9 @@ public class OuterClass{
 
     }
 }
+
+//Uncomment it and refer to link to under stand https://www.youtube.com/watch?v=UVOztdkD7WE&t=71s
+
 //output
 /*PS C:\Users\Dell\Desktop\Daily\Java-MCA\InnerClassDemo> java .\OuterClass.java
 disp method [OuterClass method]
