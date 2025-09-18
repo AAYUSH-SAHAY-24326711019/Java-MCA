@@ -33,8 +33,8 @@ public class program1{
 
 /*output
  * 
-Local Host name :AayushLenovo
-Local Host IP address :192.168.56.1
+Local Host name :Aayush
+Local Host IP address :
 IP address of site :23.0.254.92
 Host is reachable
  */
