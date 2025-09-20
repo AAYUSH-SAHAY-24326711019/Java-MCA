@@ -1,0 +1,39 @@
+Thread is single path /sequence of independent execution.
+The ability of context switch between multiple threads
+(eg. switch between multi tabs of a browser) is refer to call
+as the multithreading.
+
+1 cpu , 2 processes , cpu will manage it using concurrency
+cpu will execute for some time , on basis of some priority.
+
+1 cpu has 4 cores , means 4 independent computing circuits/units.
+
+Threads are the sub process under a parent process that will share the 
+code and resources of the parent process that is present inside the RAM.
+We can say that thread is subset of a process.
+Thread will share the address space created by the parent process.
+multiple threads will also share the address base of the process.
+
+where are they good for: they will maintain the responsiveness for an
+application , parellely take data while running the gui. Monitor the
+resources of any system will utilise the requirement of threads.
+
+Also in Client Server Architecture , server will process communication
+with a client in the parellely execution considering one client request
+as a single thread.
+
+When java program runs on jvm , the jvm will make a thread object,
+which task is defined by the main method. The thread will keep 
+executing the statements until the method returns 0/-1 value to os
+on the basis of successfull/ unsuccessful execution , then the
+thread dies,
+
+Each thread has a private runtime stack , 
+if two threads of a process are required to execute the same method.
+each will have their own copy of local variable the method is going
+to be using it. All threads will share the same heap memory.
+
+
+There are 2 ways to create own thread:
+    i. sublcass the thread class and make its new object of that class.
+    ii. implement the Runnable interface , we can use the run method.
