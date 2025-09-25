@@ -24,11 +24,3 @@ public class program2 {
         }
     }
 }
-/*output */
-// File-Name : create_file1.txt
-// Location of file : C:\Users\Lenovo\Desktop\Java-MCA\unit2 Programs\FileHandlingExamples\File-Sandbox\create_file1.txt
-// Absolute path C:\Users\Lenovo\Desktop\Java-MCA\unit2 Programs\FileHandlingExamples\File-Sandbox\create_file1.txt
-// Readable ? : true
-// Writable? : true
-// Executable ? : true
-// Length of file : 0
