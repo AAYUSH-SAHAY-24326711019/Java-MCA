@@ -1,0 +1,50 @@
+Applet lifecycle
+
+Born (initialization age)
+Running state
+Idle state
+Dead/Destroyed state
+
+to make an applet program , we will make a class and get it inheriting the 
+applet class by:
+    
+    class demo extends Applet{
+        //code
+    }
+
+every applet program needs to inherit the Applet class
+applet is load is in its initialisation (born state)
+Then after born will start  to be in the running state
+Then will show the output using the paint method.
+we can stop the applet into the stop state.
+We need to do the idle state then only we will use the destroy() to kill it.
+
+initialisation of the applet occurs once
+
+we need the override the init method like
+
+public void init(){
+
+}
+
+to do the start of the applet
+public void start(){
+
+}
+suppose we temporarily switch to some other tab while the applet was running
+it will switch back to its idle state.
+
+public void stop(){
+
+} it can be called automatically when we will close / quit the page or switch to other page.
+
+public void destroy(){
+
+} is called when you close the browser
+
+There is a state in which the applet has to display its content , it will use
+the paint method that is :
+
+public void paint(Graphics g){
+
+} we actually do not consider it as the part of the lifecycle.

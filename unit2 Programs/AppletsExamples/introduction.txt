@@ -1,0 +1,41 @@
+we can make the applications and applets
+applets are the programs for internet computing.
+we can transmit it over the internet. We will always use a java -enabled web browser
+we will also view it with the help of an applet viewer
+
+it can do the graphics / multi media and the user input with a gui.
+This could work anywhere. There was interactivity with the programs running
+multimedia on the internet. They were used over the internet
+
+Applets are 2 types : local applet made locally ,running on the local machine and
+will not require the internet and will work by searching the files and folders.
+
+Internet applet is made and stored on a remote server and installed on a remote 
+client / made public over the internet. So that anyone could fetch , we can 
+download that and run over our computer.
+
+applet does not have a main method , they dont run independently , we need to 
+make it the part of a webpage . They cannot read / write to the local file system.
+That cannot communicate to the other server. and cannot run the other programs.
+It is restricted to use the libraries of the python and c++ present over the computer.
+java will do that using its native methods.
+
+Need:
+
+to add something dynamic over the webpage by the applet.
+when need flash output , to show animation. This can be used by the other clients
+after download it. '
+
+
+we will require a java enabled webrowser to run it.
+Since we can see that its depreciated since java 9
+and then we will need jdk 8.
+
+We will make the 3 things in the bin folder of the jdk 8 location
+that is the program1.java , program1.class and program1.html
+We will also able to view only the applet part by the help
+of command
+
+appletviewer program1.html (This will also come with the jdk 8).
+
+Since awt , JavaFx and Swing are the modern alternatives of applet

@@ -1,0 +1,23 @@
+The steps to write the code for the applet are:
+
+build a java file
+create its .class file
+design a webpage using the html tags
+make the applet tag
+
+and add that applet there then we can test that code,
+
+we will require the 2 classes namely the applet and the graphics classes
+to make the program.
+
+applet class provides the life and behaviour to the user designed applet.
+
+The execution is decided when the regulatory methods to run the applet are
+called by the jvm
+
+Applet will carry out the lifecycle of the applet
+Graphics class will lie in the java.awt.*; 
+
+awt stands for the abstract windowing toolkit.
+
+
