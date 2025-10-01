@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%  //Scriptlet tag holds your functional java code
+	String for_username_field = (String)request.getAttribute("username_field");
+%>
+
+<h3>Welcome username : <%= for_username_field %></h3>
+</body>
+</html>
