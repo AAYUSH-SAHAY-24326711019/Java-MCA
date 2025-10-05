@@ -4,6 +4,7 @@ import java.io.DataInputStream;
 import java.io.IOException;
 
 public class program1 {
+    @SuppressWarnings("deprecation")
     public static void main(String args[]) throws IOException{
         DataInputStream obj = new DataInputStream(System.in);
         int a ,b;

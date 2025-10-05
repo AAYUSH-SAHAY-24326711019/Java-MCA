@@ -2,9 +2,9 @@
 
 package Constructors;
 
-class Test{
+class Test1{
     int x;
-    public Test(int z){
+    public Test1(int z){
         x=z;
     }
     public void show(){
@@ -15,9 +15,9 @@ class Test{
 
 public class program2 {
     public static void main(String args[]){
-        Test t = new Test(10);
+        Test1 t = new Test1(10);
         t.show();
-        Test p =new Test(20);
+        Test1 p =new Test1(20);
         p.show();
 
     }

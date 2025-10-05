@@ -2,9 +2,9 @@
 
 package Constructors;
 
-class Test{
+class Test2{
     int x;
-    public Test(int x){
+    public Test2(int x){
         this.x=x;
     }
     public void show(){
@@ -15,9 +15,9 @@ class Test{
 public class program3 {
     public static void main(String args[]){
         System.out.println("Making object of Test : obj1\n-> Test obj1 = new Test(100);");
-        Test obj1 = new Test(100);
+        Test2 obj1 = new Test2(100);
         System.out.println("Making object of Test : obj2\n-> Test obj1;");
-        Test obj2;
+        Test2 obj2;
         System.out.println("Copy constructor will run here: obj2\n-> obj2=obj1;");
         obj2=obj1;
         System.out.println("Calling the show method by object 2 \n-> obj2.show()");

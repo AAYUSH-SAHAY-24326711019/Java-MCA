@@ -6,9 +6,10 @@ public class labelledFor {
         A1:
         for(i=1;i<=5;i++){
             for(j=1;j<=5;j++){
-                System.out.print(j);
+                System.out.println(j);
                 if(j==3)
-                    break A1;
+                   break A1;
+                
             }
             System.out.println();
         }
