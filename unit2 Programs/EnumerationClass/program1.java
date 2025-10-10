@@ -2,8 +2,9 @@
 package EnumerationClass;
 
 import java.lang.Enum;
-enum Status{//simpple like a class
+enum Status{//simple like a class
     Running,Failed,Pending,Success;
+    //collection of constants
 }
 
 public class program1{

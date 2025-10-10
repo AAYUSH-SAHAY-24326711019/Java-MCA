@@ -12,7 +12,7 @@ package ExceptionHandlingExamples;
 public class program4 {
     public static void main(String[] args) {
         int k=0;
-        String demo=null;
+        String demo="abc";
         try{
             System.out.println(demo.toUpperCase());
         }catch(Exception e){

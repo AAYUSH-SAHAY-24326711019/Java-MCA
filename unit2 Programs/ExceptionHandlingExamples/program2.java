@@ -10,14 +10,16 @@ package ExceptionHandlingExamples;
  */
 public class program2{
     public static void main(String[] args) {
+        int key=0;
         try{
             int a =10, b=0;
             int c = a/b;
         }catch(Exception e){
             System.out.println("Raised :"+e.getMessage());
+            key =1;
         }
-        
-        System.out.println("Successful termination of the program");
+        if(key!=1)
+            System.out.println("Successful termination of the program");
     }
 
 }

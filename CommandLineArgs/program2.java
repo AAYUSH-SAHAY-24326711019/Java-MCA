@@ -2,7 +2,7 @@ package CommandLineArgs;
 
 public class program2 {
     public static void main(String args[]){
-        int s=0;
+        int s=0; //sum hold variable
         for(int i=0; i<args.length;i++){
             s=s+Integer.parseInt(args[i]);
         }
