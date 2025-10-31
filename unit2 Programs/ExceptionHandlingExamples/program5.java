@@ -8,12 +8,13 @@ package ExceptionHandlingExamples;
 public class program5 {
     public static void main(String[] args) {
         String demo = "Demo-String";
-        int k =0;
+        int k =0; //sentinel value / flag value
         try{
             int demo_int = Integer.parseInt(demo);
             System.out.println("The value inside demo_int is :"+demo_int);
         }catch(Exception e){
-            System.out.println("Raised Exception : "+e);
+            // System.out.println("Raised Exception : "+
+            e.printStackTrace();
             k=1;
         }
         if(k==1){

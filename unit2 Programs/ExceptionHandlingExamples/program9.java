@@ -57,6 +57,9 @@ public class program9 {
             catch(NullPointerException e){
                 System.out.println(e.getMessage());
             }
+            catch(Exception e){
+                System.out.println(e.getMessage());
+            }
             
         }
     }
